@@ -1,0 +1,32 @@
+{
+  "name": "fastify-postgres-auth0-crud",
+  "version": "1.0.0",
+  "description": "fastify CRUD backend coupled with postgres and auth0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"cross-env NODE_ENV=development node build/src/index.js\"",
+    "prod": "tsc && cross-env NODE_ENV=production node build/src/index.js",
+    "lint": "tslint --project tslint.json",
+    "db:reset": "node bin/resetdb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "3.0.0",
+    "cross-env": "5.2.0",
+    "dotenv": "^7.0.0",
+    "fastify": "2.2.0",
+    "fastify-postgres": "2.0.0",
+    "fastify-static": "2.4.0",
+    "pg": "7.18.2",
+    "pg-native": "3.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "11.13.2",
+    "tsc-watch": "^2.1.2",
+    "tslint": "^5.15.0",
+    "typescript": "3.4.2"
+  }
+}
