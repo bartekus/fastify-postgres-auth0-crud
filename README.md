@@ -9,9 +9,9 @@ This repository helps you to understand how to create APIs for your server.
 This project uses TypeScript.
 
 ## Requirements
-Node.JS
-PostgreSQL
-auth0
+- Node.JS
+- PostgreSQL
+- auth0
 
 ## Installation
 
