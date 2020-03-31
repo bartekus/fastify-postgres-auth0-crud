@@ -1,10 +1,12 @@
 # fastify-postgres-auth0-crud
 
-[fastify](https://www.fastify.io/) is great library to create API server for nodejs. express is probably first choice to make server for nodejs, but **fastify** has almost similar API with some extra features and most importantly it has better performance.
+[fastify](https://www.fastify.io/) is great library to create API server for nodejs.
+
+It has very similar API to that of express while having much better performance.
 
 [Check benchmarks](https://github.com/fastify/fastify#benchmarks)
 
-This repository helps you to understand how to create APIs for your server.
+This repository aims at helping you understand how to create auth0 authenticate APIs using fastify with PostgreSQL as data layer.
 
 This project uses TypeScript.
 
@@ -15,7 +17,7 @@ This project uses TypeScript.
 
 ## Installation
 
-```js
+```bash
 git clone git@github.com:bartekus/fastify-postgres-auth0-crud.git
 
 cd fastify-postgres-auth0-crud
